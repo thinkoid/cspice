@@ -1,4 +1,5 @@
-project('cspice', 'c', version : 'SPICE library 3.14.0; Toolkit N0066')
+project('cspice', 'c', default_options : ['c_std=c89'],
+        version : 'SPICE library 3.14.0; Toolkit N0066')
 
 includes = include_directories('include')
 
